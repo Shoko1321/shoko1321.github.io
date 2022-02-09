@@ -1,0 +1,34 @@
+
+body {
+    background-color: slategray
+}
+
+.skills {
+    background-color: aquamarine;
+}
+
+.greeting{
+    font-size: x-large;
+    background-color: aquamarine;
+}
+
+.links {
+    font-size: large;
+    background-color: orange;
+}
+
+.title {
+    background-color: aquamarine;
+    font-size: x-large;
+
+}
+
+.projecthead {
+    font-size: x-large;
+}
+
+.projects {
+    font-size: large;
+    background-color: aquamarine;
+}
+
