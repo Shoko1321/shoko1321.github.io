@@ -5,70 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-    <nav>
+    <div class="grid-container">
+        <div class="item1">
+            <nav class="navigationbar"> 
+                <p>
+                    <a href="#aboutMe" class="nav-link">About</a>
+                </p>
 
-    </nav>
+                <p>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </p>
+                
+                <p>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </p>
 
+                <p>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </p>
 
+                <p>
+                    <a href="#resume" class="nav-link">Resume</a>
+                </p>
+            </nav>
 
-    <header class="title"> Project Portfolio</header>
+        <div class="item2">
+            <div class="aboutMe" id="aboutMe">
+                <img class="profilePicture" src="images/Photo Apr 13, 8 42 30 PM.jpg" alt="My name is Dylan Creech and this is my portfolio">
+                
+                <div class="description">
+                    <h1>Dylan Creech</h1>
+                    <p>
+                        Fresh graduate looking to grow in the field of software engineering. Proven skills in teamwork and communication as well as solo tasks. With a long standing love of computers and technology and over 6 years of customer facing interaction.
+                    </p>
+               </div>
+               <h2 id="contact">Contact Info</h2>
+               <div class="contactInfo">
+                    <div class="personalInfo">
+                        <p>
+                            Phone: 740-409-1667
+                            <br>
+                            Email: dylancreech1321@gmail.com
+                            <br>
+                            Location : Columbus, OH
+                        </p>
+                    </div>
 
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/dylan-creech-165343231/" target="_blank">
+                            <img class="icon" src="images/linkedin.PNG" alt="Linkedin icon">
+                        </a>
+                        <a href="https://docs.google.com/document/d/1wy_3n4PQ4YhqMwNDq-Y4w397FEpS3h445mBY83yETbg/edit#" target="_blank">
+                            <img class="icon" src="images/199px-Resume.jpg" alt="resume icon">
+                        </a>
+                        <a href="https://github.com/Shoko1321" target="_blank">
+                            <img class="icon" src="images/github.PNG" alt="gitbug icon">
+                        </a>
+                        </div>
+                  </div>
+            </div>
+        </div>
 
+        <div class="item3">
+            <h1 class="projects" id="projects">Projects</h1>
+            <div class=articles>
+                <article class="singleArticle">
+                    <div class="projectOne">
+                        <h3 class="articleTitle">Virtual Pet Shelter</h3>
+                            <img src="./images/virtualPet screenshot.PNG" alt="virtual pet screenshot">
+                        </a>
+                        <p>
+                            Lets the user care for an array of pets by feeding, watering and playing with live pets as well as charging batterier and maintaining robotic pets.
+                        </p>
+                    </div>
+                </article>
+                
+                <article class="singleArticle">
+                    <div class="projectOne">
+                        <h3 class="articleTitle">Fortune Teller</h3>
+                        <img src="./images/fortuneteller.PNG" alt="Fortune Teller screenshot">
 
+                        <p> 
+                            Takes multiple types of input from the user and then tells a fortune based on the inputs choosen.
+                        </p>
+                    </div>
+                </article>
 
-    <section class="greeting">
-        Hello! My name is Dylan. I am a long time computer enthusiast with an appreciation for AI technology and video games.
-         
-    </section>
-    
-    <section class="Contact">
-        Contact Information:
-         dreamsofgaia1321@gmail.com
-    </section>
+                <article class="singleArticle">
+                    <div class="projectOne">
+                        <h3 class="articleTitle">Project Placeholder</h3>
+                        <img src="./images/gdesign.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi natus voluptatibus, autem, nemo sunt obcaecati architecto doloremque numquam possimus officia temporibus sed illo quasi veniam excepturi earum vero maxime eligendi!
+                        </p>
+                        </div>
+                </article>
+            </div>
+        </div>
 
+        <div class="item4">
+            <section>
+                <div class="title">
+                    <h3 id="11">Skills</h3>
+                    <h3 id="12">More information</h3>
+                </div>
 
+                <div class=" moreInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe cum explicabo iure quae nihil voluptate? Inventore veritatis natus optio ullam unde, perspiciatis quisquam itaque, beatae cupiditate consequuntur ipsam repellat.</div>
 
-    <section class="links">
-      <a href="https://github.com/Shoko1321">Github</a></li>
-      <a href="https://www.linkedin.com/in/dylan-creech-165343231/">Linkedin</a></li>
-    </section>
-   
-   
-    <section>
-<ol class="skills">
-    <h4>Skills</h4>
-    <li> Java</li>
-    <li> Scrum</li>
-    <li>Spring</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>GitBash</li>
-    <li>6+ years of customer service experience</li></section>
-</ol>
+                <div id="Skills">
+                    <p>
+                        <ol>
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Spring</li>
+                            <li>JavaScript</li>
+                            <li>Agile</li>
+                            <li>OOP</li>
+                            <li>Git Bash</li>
+                        </ol>
+                    </p>
 
+                </div>
+            </section>
+        </div>
+        </div>
+        <div class="item5">Portfolio</div>
 
-<article>
-    <div class="projecthead">
-        Projects
     </div>
-<ol class="projects"><li> <a href="https://github.com/Shoko1321/FortuneTeller">Fortune Teller - java</a> </li>
-
-<li> <a href="https://github.com/2022-Spring-Cohort/virtual-pet-Shoko1321.git">Virtual pet shelter - java</a></li>
-</ol>
-
-</article>
-
-
-
-</ol>
-
-
-
-
+    
 </body>
-<footer> Dylan Creech</footer>
 </html>
