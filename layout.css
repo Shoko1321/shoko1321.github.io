@@ -85,10 +85,10 @@
 }
 
 .articles{
-    margin-top: -20px !important;
+    margin-top: -18px !important;
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 8px;
 }
 
 .singleArticle{
