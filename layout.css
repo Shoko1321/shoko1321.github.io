@@ -15,7 +15,7 @@
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Header navigation */
+
 .item1 {
     font-weight: bold;
     grid-area: header;
@@ -38,7 +38,6 @@
 }
 
 
-/* About me */
 .item2 {
     display: flex;
     justify-content: center;
@@ -76,7 +75,7 @@
 }
 
 
-/* Projects */
+
 .item3 {
     grid-area: main;
 }
